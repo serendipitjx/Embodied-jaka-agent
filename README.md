@@ -10,7 +10,7 @@ This project was developed for a robotics competition organised by Shanghai Jiao
 
 ## Project Structure
 
-- `demo/`: Contains the main entry `main.py` and the task logic `mission.py`.
+- `demo/`: Contains the main entry in `main.py` and the task logic,the tools needed when the robot is moving in `mission.py`.
 - `config/`: Stores API configurations and the LLM tool definitions (`tools.json`).
 - `utils/`: Individual modules for the LLM Agent, arm control, navigation, QR scanning, and audio processing.
 
@@ -25,5 +25,5 @@ The project utilizes the baseline hardware SDK wrappers provided by the robotics
 ## Notes
 
 - This repository is for recording experiences and portfolio demonstration.
-- Running the code requires a JAKA Zu arm and a compatible mobile base environment.
+- Running the code requires a JAKA Lumi.
 - Sensitive information (like API Keys) is hidden via `.gitignore`. You need to configure your own `.env` file based on the provided example.
