@@ -19,7 +19,11 @@ This project was developed for a robotics competition organised by Shanghai Jiao
 The project utilizes the baseline hardware SDK wrappers provided by the robotics club. My primary work focused on connecting these modules and implementing the logic required for the competition:
 
 1. **Physical Coordinate Collection**: Performed manual teaching of the robot arm's grasping positions and calibrated the navigation markers on the map to match the physical competition field. This ensured that the movements and grasping were accurate in a real-world environment.
+   
+**Notion**:If you want to let the robot move to target place,you need to label the points in the map.You can get the map by controlling the robot manually. 
+
 2. **Module Integration & Debugging**: Wrote code to link the separate modules (speech, vision, navigation, and arm control) and resolved logic conflicts when multiple hardware components were running simultaneously.
+  
 3. **Mission Logic Development**: Designed and implemented the full automation code that allowed the robot to autonomously identify tasks, navigate to pickup locations, and deliver items to target points.
 
 ## Notes
