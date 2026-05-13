@@ -1,10 +1,10 @@
 # Embodied-JAKA-Agent
 
-This project was developed for a robotics competition organised by Shanghai Jiao Tong University Shuzi Shanhai club and we won the Second Prize. It features an autonomous pakage delivery system that integrates a JAKA Zu robot arm and a mobile base, controlled by a Large Language Model (LLM).
+This project was developed for a robotics competition organised by Shanghai Jiao Tong University Shuzi Shanhai club and we won the Second Prize. It features an autonomous pakage delivery system that uses JAKA Lumi, it can be evoked by identifying user's orders by deploying Large Language Model (LLM).
 
 ## Core Functions
 
-- **LLM-Based Control**: Uses DeepSeek-V3 to process voice commands and automatically trigger specific tool functions.
+- **LLM-Based Control**: Uses DeepSeek-V3  to process voice commands and automatically trigger specific tool functions.
 - **Automated Workflow**: Implements a complete loop: Voice Wake-up -> QR Code Task Retrieval -> Target Navigation -> Fixed-point Grasping -> Delivery.
 - **Hardware Coordination**: Connects multiple modules including audio, camera, mobile base, and the robotic arm.
 
