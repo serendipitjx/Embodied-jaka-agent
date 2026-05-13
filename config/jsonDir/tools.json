@@ -1,0 +1,51 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "cancel_move",
+      "description": "取消移动",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "move_to_location",
+      "description": "移动到指定的标记点位置",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "location_name": {
+            "type": "string",
+            "description": "目标位置的标记点名称,如工作台、客厅、书房、充电点"
+          }
+        },
+        "required": ["location_name"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "pickAndPlace",
+      "description": "抓取指定颜色的物体并且放置到某个位置,如抓取红色物体到1号位置",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "color": {
+            "type": "string",
+            "description": "抓取目标物体的颜色,如red、black、yellow"
+          },
+          "number": {
+            "type": "integer",
+            "description": "抓取目标物体后所需要放置位置的编号,如1,2,3等"
+          }
+        },
+        "required": ["color", "number"]
+      }
+    }
+  }
+]
