@@ -12,6 +12,11 @@ This project was developed for a robotics competition organised by Shanghai Jiao
 
 - `demo/`: Contains the main entry in `main.py` and the task logic,the tools needed when the robot is moving in `mission.py`.
 - `config/`: Stores API configurations and the LLM tool definitions (`tools.json`).
+  - `arm/`: the main logic of controlling Lumi's arm.
+  - `listen/`: this part helps the robot understand the meaning of users.
+  - `move/`: this part enables the robot move to target points.
+  - `vision/`:this part enables the robots gain the messages of targeted location and targeted  cargo through QR.
+  - `wakeUp/`:the method we adopted to evoke the robot to start all the procedure.In it the xiaodu.pmdl enables the robot begins to start when hearing "xiaodu",you can change by yourself.
 - `utils/`: Individual modules for the LLM Agent, arm control, navigation, QR scanning, and audio processing.
 
 ## Implementation Details
